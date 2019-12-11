@@ -8,10 +8,10 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.2.2.RELEASE</version>
 		<relativePath/>
-
 	</parent>
-	<groupId>de.akull</groupId>
-	<artifactId>generator</artifactId>
+
+	<groupId><%= domain  %>.<%= host %></groupId>
+	<artifactId><%= project %></artifactId>
 	<version>0.0.1</version>
 
 	<properties>
