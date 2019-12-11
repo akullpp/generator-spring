@@ -9,6 +9,8 @@ npm link
 yo spring
 ```
 
+The assumption is that you have a PostgreSQL database running at `localhost:5432` with postgres/postgres credentials and the artifact's name as database name. This can be changed in the `application-dev.yml`.
+
 ## Stack
 
 ### Production

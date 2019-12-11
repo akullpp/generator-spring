@@ -56,6 +56,12 @@ module.exports = class extends Generator {
     )
 
     this.fs.copyTpl(
+      this.templatePath('application-dev.yml'),
+      this.destinationPath('src/main/resources/application-dev.yml'),
+      { project },
+    )
+
+    this.fs.copyTpl(
       this.templatePath('Application.java'),
       this.destinationPath(
         `src/main/java/${domain}/${host}/${project}/${className}Application.java`,
@@ -78,7 +84,6 @@ module.exports = class extends Generator {
     mkdirp.sync(
       `${this.destinationPath()}/src/main/java/${domain}/${host}/${project}/dto`,
     )
-    mkdirp.sync(`${this.destinationPath()}/src/main/resources/db/migration`)
     mkdirp.sync(
       `${this.destinationPath()}/src/test/java/${domain}/${host}/${project}`,
     )

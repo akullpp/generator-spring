@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class <%= className %>Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GeneratorApplication.class, args);
+		SpringApplication.run(<%= className %>Application.class, args);
 	}
 }
