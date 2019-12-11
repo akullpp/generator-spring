@@ -13,4 +13,17 @@ yo spring
 
 ### Production
 
+- Spring Data JPA
+- Spring Starter Web
+- PostgreSQL
+- Swagger with UI
+
 ### Development
+
+- Spring Configuration Processor
+- Flyway
+- Lombok
+- MapStruct
+- JUnit 5
+- AssertJ
+- Mockito
