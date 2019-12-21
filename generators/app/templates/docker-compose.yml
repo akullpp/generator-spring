@@ -1,0 +1,32 @@
+version: "3"
+
+services:
+  <%= project %>_db:
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=<%= project %>
+    expose:
+      - 5432
+    networks:
+      - local
+    restart: unless-stopped
+
+  <%= project %>:
+    build: .
+    environment:
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=postgres
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://<%= project %>_db/<%= project %>
+    ports:
+      - 8080:8080
+    networks:
+      - local
+    depends_on:
+      - <%= project %>_db
+    restart: unless-stopped
+
+networks:
+  local:
+    driver: bridge

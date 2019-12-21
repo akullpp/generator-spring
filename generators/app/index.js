@@ -56,6 +56,12 @@ module.exports = class extends Generator {
     )
 
     this.fs.copyTpl(
+      this.templatePath('docker-compose.yml'),
+      this.destinationPath('docker-compose.yml'),
+      { project },
+    )
+
+    this.fs.copyTpl(
       this.templatePath('application.yml'),
       this.destinationPath('src/main/resources/application.yml'),
       { project },
