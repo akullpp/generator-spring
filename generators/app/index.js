@@ -50,6 +50,12 @@ module.exports = class extends Generator {
     )
 
     this.fs.copyTpl(
+      this.templatePath('Dockerfile'),
+      this.destinationPath('Dockerfile'),
+      { project },
+    )
+
+    this.fs.copyTpl(
       this.templatePath('application.yml'),
       this.destinationPath('src/main/resources/application.yml'),
       { project },
