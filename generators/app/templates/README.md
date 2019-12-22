@@ -12,6 +12,10 @@ docker run -it $(docker build -q .)
 
 ### Docker Compose
 
+```sh
+docker-compose up -d
+```
+
 ## Development
 
 ### PostgreSQL
