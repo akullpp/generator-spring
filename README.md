@@ -13,17 +13,17 @@ yo spring
 
 ### Production
 
+- PostgreSQL
+- SpringDoc OpenAPI
 - Spring Data JPA
 - Spring Starter Web
-- PostgreSQL
-- Swagger UI
 
 ### Development
 
-- Spring Configuration Processor
+- AssertJ
 - Flyway
+- JUnit 5
 - Lombok
 - MapStruct
-- JUnit 5
-- AssertJ
 - Mockito
+- Spring Configuration Processor
