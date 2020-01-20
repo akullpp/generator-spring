@@ -1,12 +1,14 @@
 # Generator for Spring Projects
 
+[Yeoman](https://yeoman.io) generator for Spring projects.
+
 ## Usage
 
 ```sh
 git clone https://github.com/akullpp/generator-spring.git
 cd generator-spring
 npm link
-yo spring
+npx yo spring
 ```
 
 ## Stack
