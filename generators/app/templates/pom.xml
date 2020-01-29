@@ -22,7 +22,7 @@
 		<mapstruct.version>1.3.1.Final</mapstruct.version>
     <springdoc-openapi-ui.version>1.2.29</springdoc-openapi-ui.version>
 
-		<assertj.version>3.14.0</assertj.version>
+		<assertj.version>3.15.0</assertj.version>
 		<mockito.version>3.2.4</mockito.version>
 	</properties>
 
