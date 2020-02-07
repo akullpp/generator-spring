@@ -18,7 +18,7 @@
 		<java.version>11</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<lombok.version>1.18.10</lombok.version>
+		<lombok.version>1.18.12</lombok.version>
 		<mapstruct.version>1.3.1.Final</mapstruct.version>
     <springdoc-openapi-ui.version>1.2.30</springdoc-openapi-ui.version>
 
