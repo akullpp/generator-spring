@@ -6,10 +6,10 @@
   "license": "MIT",
   "version": "1.0.0",
   "dependencies": {
-    "yeoman-generator": "4.5.0"
+    "yeoman-generator": "^4.5.0"
   },
   "devDependencies": {
-    "prettier": "1.19.1"
+    "prettier": "^1.19.1"
   },
   "prettier": {
     "semi": false,
