@@ -18,6 +18,8 @@ docker-compose up -d
 
 ## Development
 
+Please use the `dev` profile.
+
 ### PostgreSQL
 
 ```sh
