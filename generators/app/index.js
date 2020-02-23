@@ -91,13 +91,10 @@ module.exports = class extends Generator {
     )
 
     mkdirp.sync(
-      `${this.destinationPath()}/src/main/java/${domain}/${host}/${project}/controller`,
+      `${this.destinationPath()}/src/main/java/${domain}/${host}/${project}/rest`,
     )
     mkdirp.sync(
-      `${this.destinationPath()}/src/main/java/${domain}/${host}/${project}/core/domain`,
-    )
-    mkdirp.sync(
-      `${this.destinationPath()}/src/main/java/${domain}/${host}/${project}/dto`,
+      `${this.destinationPath()}/src/main/java/${domain}/${host}/${project}/core`,
     )
     mkdirp.sync(
       `${this.destinationPath()}/src/test/java/${domain}/${host}/${project}`,
