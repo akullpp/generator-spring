@@ -1,2 +1,6 @@
 spring:
   application.name: <%= project %>
+  jpa:
+    open-in-view: false
+    hibernate.ddl-auto: validate
+  jackson.default-property-inclusion: non_null
