@@ -4,3 +4,8 @@ CREATE SEQUENCE hibernate_sequence
     MAXVALUE 9223372036854775807
     START 1
     CACHE 1;
+<% if (demo) { %>
+CREATE TABLE account (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);<% } %>
