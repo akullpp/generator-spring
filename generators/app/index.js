@@ -7,15 +7,18 @@ module.exports = class extends Generator {
   }
 
   async prompting() {
-    const { artifactName } = await this.prompt([
+    const defaultArtifact
+
+    const { artifact } = await this.prompt([
       {
         type: 'input',
-        name: 'artifactName',
-        message: 'Artifact name:',
+        name: 'artifact',
+        message: `Artifact (${defaultArtifact}):`,
+        default: defaultArtifact,
         validate: input => Boolean(input.length),
       },
     ])
-    const [domain, host, project] = artifactName.split('.')
+    const [domain, host, project] = artifact.split('.')
     this.answers = {
       domain,
       host,
