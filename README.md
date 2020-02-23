@@ -22,10 +22,7 @@ npx yo spring
 
 ### Development
 
-- AssertJ
 - Flyway
 - JUnit 5
 - Lombok
 - MapStruct
-- Mockito
-- Spring Configuration Processor
