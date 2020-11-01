@@ -19,7 +19,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<lombok.version>1.18.12</lombok.version>
-		<mapstruct.version>1.4.0.Final</mapstruct.version>
+		<mapstruct.version>1.4.1.Final</mapstruct.version>
     <springdoc-openapi-ui.version>1.4.8</springdoc-openapi-ui.version>
 
     <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
