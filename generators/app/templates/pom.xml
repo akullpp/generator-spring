@@ -20,7 +20,7 @@
 
 		<lombok.version>1.18.18</lombok.version>
 		<mapstruct.version>1.4.2.Final</mapstruct.version>
-    <springdoc-openapi-ui.version>1.5.3</springdoc-openapi-ui.version>
+    <springdoc-openapi-ui.version>1.5.5</springdoc-openapi-ui.version>
 
     <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
 	</properties>
