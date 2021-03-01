@@ -6,7 +6,7 @@
   "license": "MIT",
   "version": "1.0.0",
   "dependencies": {
-    "yeoman-generator": "^4.7.2"
+    "yeoman-generator": "^5.0.1"
   },
   "devDependencies": {
     "prettier": "^2.0.1"
