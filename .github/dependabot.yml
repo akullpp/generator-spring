@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "04:00"
+  open-pull-requests-limit: 10
+  versioning-strategy: increase-if-necessary
+- package-ecosystem: maven
+  directory: "/generators/app/templates"
+  schedule:
+    interval: monthly
+    time: "04:00"
+  open-pull-requests-limit: 10
